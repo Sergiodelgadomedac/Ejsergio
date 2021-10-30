@@ -18,6 +18,6 @@ public class PlayerController : MonoBehaviour
     {
         //Tenemos que mover el vehiculo hacia delante
 
-        transform.Translate(10 * Time.deltaTime * Vector3.forward);
+        transform.Translate(20 * Time.deltaTime * Vector3.forward);
     }
 }
